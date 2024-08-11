@@ -1,0 +1,87 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(girl.jpg);
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left:34px;
+    top: 20px;
+  }
+  .left img {
+    width: 99px;
+  }
+  .left div {
+    line-height: 19px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .mid {
+    display: block;
+    width: 39%;
+    margin: 19px auto;
+    margin-left: -40px;
+    /* border: 2px solid yellow; */
+  }
+  
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid green; */
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    font-size: 19px;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+  }
+  .navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+  }
+  .btn{
+    font-family: 'Indie Flower', cursive;
+    margin: 0 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .btn:hover{
+       background-color: gray;
+  }
+  .contner{
+    border: 2px solid gray;
+    margin: 106px 80px;
+    padding: 65px;
+    width: 33%;
+    border-radius: 28px;
+  }
+  .contner h1{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .group{
+    text-align: center;
+    padding:4px;
+    margin: 5px;
+    font-size:25px;
+  }
